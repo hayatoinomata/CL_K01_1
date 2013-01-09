@@ -9,6 +9,7 @@ void main(void){
 	printf("15‘«‚·37‘«‚·5‚Í%d‚Å‚·B\n",sum);
 	j = sum-k;
 	printf("%dˆø‚­%d‚Í%d",sum,k,j);
-
+	j = j-k;
+	printf("%d",j);
 
 }
