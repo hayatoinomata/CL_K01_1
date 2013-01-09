@@ -8,8 +8,10 @@ void main(void){
 	k = 10;
 	printf("15‘«‚·37‘«‚·5‚Í%d‚Å‚·B\n",sum);
 	j = sum-k;
-	printf("%dˆø‚­%d‚Í%d",sum,k,j);
+	printf("%dˆø‚­%d‚Í%d\n",sum,k,j);
 	j = j-k;
-	printf("%d",j);
+	printf("%d\n",j);
+	j = j*k;
+	printf("%d\n",j);
 
 }
